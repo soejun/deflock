@@ -67,7 +67,6 @@
 
 <script setup lang="ts">
 import { icon } from 'leaflet';
-import { computed } from 'vue';
 import { useTheme } from 'vuetify';
 const theme = useTheme();
 const isDark = computed(() => theme.name.value === 'dark');

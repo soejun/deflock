@@ -57,8 +57,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
-import type { ComputedRef, PropType } from 'vue';
 import type { ALPR } from '@/types';
 import { VIcon, VList, VSheet, VListItem, VBtn, VImg, VListItemSubtitle, VDivider } from 'vuetify/components';
 

@@ -51,7 +51,6 @@
 
 <script setup lang="ts">
 import DFCode from '@/components/DFCode.vue';
-import { ref, type Ref } from 'vue';
 import type { WikidataItem } from '@/types';
 
 const alprBrands: WikidataItem[] = [

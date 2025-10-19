@@ -7,7 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, watch, type Ref } from 'vue';
 import { useDisplay } from 'vuetify'
 import { getALPRCounts } from '@/services/apiService';
 import { CountUp } from 'countup.js';

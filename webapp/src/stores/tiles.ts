@@ -1,5 +1,3 @@
-import { defineStore } from 'pinia';
-import { computed, ref, type Ref } from 'vue';
 import type { ALPR } from '@/types';
 import axios from 'axios';
 import type { BoundingBox } from '@/services/apiService'; // TODO: this is a strange place to hold this type

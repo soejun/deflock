@@ -49,9 +49,7 @@
 
 <script setup lang="ts">
 import 'leaflet/dist/leaflet.css';
-import { ref, onMounted, computed, watch } from 'vue';
 import { useRouter } from 'vue-router'
-import type { Ref } from 'vue';
 import { BoundingBox } from '@/services/apiService';
 import { geocodeQuery } from '@/services/apiService';
 import { useDisplay, useTheme } from 'vuetify';

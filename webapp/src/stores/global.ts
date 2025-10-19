@@ -1,6 +1,3 @@
-import { defineStore } from 'pinia';
-import { ref, type Ref } from 'vue';
-
 export const useGlobalStore = defineStore('global', () => {
   const currentLocation: Ref<[number, number] | null> = ref(null);
 

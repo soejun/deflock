@@ -117,7 +117,6 @@
 
 <script setup lang="ts">
 import Hero from '@/components/layout/Hero.vue';
-import { ref, onMounted, watch } from 'vue';
 import OSMTagSelector from '@/components/OSMTagSelector.vue';
 import { VStepperVerticalItem, VStepperVertical } from 'vuetify/labs/components';
 

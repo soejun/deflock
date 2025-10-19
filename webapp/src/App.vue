@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterView, useRouter } from 'vue-router'
-import { computed, ref, watch, onMounted } from 'vue'
 import { useTheme } from 'vuetify';
 import DiscordWarningDialog from '@/components/DiscordWarningDialog.vue';
 import { useDiscordIntercept } from '@/composables/useDiscordIntercept';

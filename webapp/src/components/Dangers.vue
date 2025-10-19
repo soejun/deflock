@@ -186,7 +186,6 @@
 
 <script setup lang="ts">
 import QuotedSource from '@/components/QuotedSource.vue';
-import { computed } from 'vue';
 
 const props = defineProps({
   showAll: {

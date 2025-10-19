@@ -262,7 +262,6 @@
 <script setup lang="ts">
 import Hero from '@/components/layout/Hero.vue';
 import Footer from '@/components/layout/Footer.vue';
-import { computed, ref } from 'vue';
 import { useTheme } from 'vuetify';
 
 const theme = useTheme();

@@ -57,13 +57,11 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, h, createApp, watch, ref, type PropType, type Ref } from 'vue';
 import L, { type LatLngTuple, type FeatureGroup, type MarkerClusterGroup, type Marker, type CircleMarker } from 'leaflet';
 import type { ALPR } from '@/types';
 import DFMapPopup from './DFMapPopup.vue';
 import { createVuetify } from 'vuetify'
 import { useRoute } from 'vue-router';
-import { computed } from 'vue';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';

@@ -29,7 +29,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from 'vue';
 
 const props = defineProps<{ modelValue: boolean; discordUrl: string }>();
 const emit = defineEmits(['update:modelValue', 'proceed']);

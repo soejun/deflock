@@ -51,7 +51,6 @@
 <script setup lang="ts">
 import Footer from '@/components/layout/Footer.vue';
 import { useTheme } from 'vuetify';
-import { computed } from 'vue';
 
 const theme = useTheme();
 const isDark = computed(() => theme.name.value === 'dark');

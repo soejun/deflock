@@ -1,4 +1,3 @@
-import { ref } from 'vue';
 
 export function useDiscordIntercept() {
   const showDialog = ref(false);

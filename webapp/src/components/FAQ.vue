@@ -115,7 +115,6 @@
 
 <script setup lang="ts">
 import QuotedSource from '@/components/QuotedSource.vue';
-import { ref, onMounted, watch } from 'vue';
 
 const props = defineProps({
   showAll: {

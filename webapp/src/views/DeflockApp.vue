@@ -217,7 +217,6 @@
 
 <script setup lang="ts">
 import Footer from '@/components/layout/Footer.vue';
-import { ref, computed } from 'vue';
 
 interface Feature {
   id: number;
